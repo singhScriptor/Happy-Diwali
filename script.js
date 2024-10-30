@@ -5,7 +5,7 @@ var typed = new Typed(".text1", {
         "Happy Diwali from Dhiraj Singh! 🪔"
     ],
 
-    typeSpeed: 70,
+    typeSpeed: 50,
     backSpeed: 70,
     loop: true
 });
