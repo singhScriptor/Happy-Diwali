@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    /*background-image: url(./resources/vector-beautiful-two-diwali-diya-background.jpg);
+    background-position: center;*/
+}  
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure video is behind text */
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    padding: 40px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 800px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.text-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 20px; /* Adding space from the top */
+}
+
+.text1 {
+    font-family: 'Poppins', sans-serif; /* Changed font style */
+    font-size: 20px;
+    color: #FFFFFF; /* White color for contrast */
+    background: linear-gradient(90deg, rgba(255, 235, 0, 0.8) 0%, rgba(255, 87, 34, 0.8) 100%); /* Gradient background */
+    padding: 10px;
+    border-radius: 10px;
+    animation: fadeIn 2s forwards; /* Applying animation */
+    margin-left: 15px; /* Move text1 slightly to the right */
+}
+
+.border-text {
+    font-family: 'Roboto', sans-serif; /* Changed font style */
+    font-size: 68px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    animation: slideIn 2s forwards; /* Adding the animation directly */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .text1 {
+        font-size: 24px;
+        padding: 10px;
+        margin-left: 0; /* Reset margin on small screens */
+    }
+
+    .border-text {
+        font-size: 32px;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    color: #fff; /* White text color */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for a floating effect */
+    backdrop-filter: blur(5px); /* Optional blur effect */
+}
+
+.footer p {
+    margin: 0;
+}
+
+video{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
