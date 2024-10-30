@@ -1,7 +1,7 @@
 var typed = new Typed(".text1", {
-    strings:[
-        "Wishing you and your family joy and prosperity! 🌟",
-        "May the Festival of Lights bring happiness to your home! 🎆",
+    strings:["Joy & prosperity to you & your family!🌟",
+        "Happiness and light to your home! 🎆",
+
         "Happy Diwali from Dhiraj Singh! 🪔"
     ],
 
