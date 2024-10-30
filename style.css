@@ -68,11 +68,11 @@ body, html {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .container {
-        padding: 30px;
+        padding: 40px;
     }
 
     .text1 {
-        font-size: 14px;
+        font-size: 12px;
         padding: 10px;
         margin-left: 0; /* Reset margin on small screens */
     }
