@@ -57,13 +57,12 @@ body, html {
 
 .border-text {
     font-family: 'Roboto', sans-serif;
-    /*Changedfontstyle*/font-size: 68px;
+    font-size: 68px;
     color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     animation: zoomIn 5s forwards;
-    /*Addingtheanimationdirectly*/:;
     -webkit-animation: zoomIn 5s forwards;
 }
 
