@@ -5,8 +5,8 @@ body, html {
     height: 100%;
     overflow: hidden;
     font-family: 'Arial', sans-serif;
-    background-image: url(./resources/vector-beautiful-two-diwali-diya-background.jpg);
-    background-position: center;
+    /*background-image: url(./resources/vector-beautiful-two-diwali-diya-background.jpg);
+    background-position: center;*/
 }  
 
 #background {
