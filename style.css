@@ -68,7 +68,7 @@ body, html {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .container {
-        padding: 20px;
+        padding: 30px;
     }
 
     .text1 {
