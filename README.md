@@ -4,7 +4,7 @@ Welcome to the **Happy Diwali** project! This project is a beautiful web page to
 
 ## Live Demo 🌐
 
-Check out the live demo of the project [here](https://dhirajkr08.github.io/Happy-Diwali/).
+Check out the live demo of the project [here](https://singhscriptor.github.io/Happy-Diwali/).
 
 ## Features ✨
 
